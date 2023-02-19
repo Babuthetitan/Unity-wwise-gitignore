@@ -1,0 +1,37 @@
+//Copy this code block into your '.gitignore file'//
+//Modify it to suit your project's needs- such as what you want to be ignored from your project directory paths//
+
+# Wwise generated
+GeneratedSoundBanks/
+Temp/
+Build/
+WwiseProjectDataFolder/Temp/
+WwiseProjectDataFolder/GeneratedSoundBanks/
+WwiseProjectDataFolder/Attic/
+*.validationcache
+*.wsettings
+
+# Wwise user-specific settings
+WwiseProjectDataFolder/UserSettings/
+WwiseProjectDataFolder/Session/
+
+# Wwise
+*.cache
+*.bnk
+*.wem
+*_streaming
+*_vo
+*.workunit
+*.wwu
+*.strings.wwu
+*.bak
+*.orig
+*.pdb
+*.exp
+*.lib
+*.dwp
+*.user
+*_target
+*.lnt
+*.deps
+*.filters
